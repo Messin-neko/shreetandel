@@ -32,3 +32,16 @@
 .hero-visual #homepage-reel{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#111}
 #reel-toggle{margin-top:12px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:10px 16px;min-height:44px;cursor:pointer;font:inherit;font-size:.8rem}
 .confirmed-credits{margin-top:28px}.confirmed-credits h3{font-size:1rem;margin-bottom:12px}.confirmed-credits p{color:var(--muted);font-size:.8rem;line-height:1.9}
+
+[data-modal="modal-zoya"] .project-image img{object-fit:contain}
+
+/* Full project entries for every personally confirmed production. */
+.campaign-type-card{padding:24px 18px;display:flex;flex-direction:column;justify-content:center;background:#dce5bc;color:#1a241d}
+.campaign-tone-1{background:#d3c5ad;color:#25211a}.campaign-tone-2{background:#bdc9c4;color:#172522}.campaign-tone-3{background:#cbc6d7;color:#22202b}
+.campaign-type{font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;position:absolute;top:22px;left:18px;right:18px}
+.campaign-wordmark{font-size:clamp(1.65rem,2.6vw,2.65rem);line-height:1.06;letter-spacing:-.045em;font-weight:500;overflow-wrap:anywhere}
+.campaign-card-detail{font-size:.68rem;line-height:1.5;margin-top:18px;max-width:24ch}
+.campaign-type-card .project-action{color:inherit;background:none}
+.production-case{display:grid;grid-template-columns:1fr 1.8fr;gap:48px;padding-top:25px;border-top:1px solid var(--line)}
+.production-facts{font-size:.9rem;color:var(--muted)}.shoot-date{margin-top:24px}.verified-project-facts{color:var(--muted);font-size:.82rem;padding-bottom:20px;border-bottom:1px solid var(--line);margin-bottom:20px!important}
+@media(max-width:640px){.campaign-type-card{padding:28px 12px 42px}.campaign-type{top:16px;left:12px;right:12px;font-size:.5rem}.campaign-wordmark{font-size:1.6rem}.campaign-card-detail{font-size:.59rem;margin-top:12px}.production-case{grid-template-columns:1fr;gap:26px}}

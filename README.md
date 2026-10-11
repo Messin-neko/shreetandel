@@ -38,7 +38,7 @@ For local reel files, use browser-compatible H.264/AAC MP4 or WebM. Keep individ
 ## Final live-site check
 
 - Open the published link on your phone and a desktop. Confirm the name, role, images, and navigation appear.
-- Open the four featured projects and expand View all projects to access eight more. Close it; on desktop, also try Escape and keyboard Tab.
+- Open the four featured projects and expand View all projects to access eighteen more. Close it; on desktop, also try Escape and keyboard Tab.
 - Play the Fossil film and confirm it stops when its project closes.
 - Open the resume and use Download resume. Both should return the included PDF.
 - Tap Email and LinkedIn. Email opens your mail app; LinkedIn may request sign-in. The phone number is available only in the downloadable resume.
@@ -48,7 +48,7 @@ For local reel files, use browser-compatible H.264/AAC MP4 or WebM. Keep individ
 
 This is a cleaned and completed version of the supplied `kt` site, retaining plain HTML/CSS/JavaScript, its dark gallery direction, original gallery-item markup, project IDs, modal conventions, and verified brand assets. The original `kt` folder was not overwritten.
 
-The supplied portfolio archive and company presentation provided real campaign images and the Fossil film. Four projects remain featured, with eight additional projects from the supplied personal portfolio archive available under View all projects. Shoot dates use supplied call sheets where available; folder dates are not treated as shoot dates. Chopard and Fossil dates remain unresolved. Shree is credited as Associate Producer, not director, editor, or lead producer. No private crew documents are included.
+The supplied portfolio archive and company presentation provided real campaign images and the Fossil film. Four projects remain featured, with eighteen additional projects from the supplied personal portfolio archive available under View all projects. Shoot dates use supplied call sheets where available; folder dates are not treated as shoot dates. Chopard is confirmed as 2021; Fossil dates remain unresolved. Shree is credited as Associate Producer, not director, editor, or lead producer. No private crew documents are included.
 
 Removed the copied third-party bio, email, phone, and social accounts; unrelated video links; duplicate projects; placeholder credits; missing asset references; delayed navigation; and inaccessible hidden overlays. The new project overlays support keyboard focus, Escape, browser history, video pause on close, and no-JavaScript navigation. Images are optimized, project videos load only when requested; the homepage reel autoplays silently where permitted, and reduced-motion preferences are respected.
 
@@ -57,7 +57,7 @@ The approved V5 reel is included in the homepage. The optional separate reel sec
 
 ## Latest campaign and credit update
 
-- 12 projects total: four featured campaigns and eight additional campaign/editorial projects.
+- 22 projects total: four featured campaigns and eighteen additional campaign/editorial projects.
 - Cards show brand, campaign or collection, year where known, and role/category. Descriptive labels such as “Watches campaign” are used when no official campaign title was supplied.
 - A|X Armani Exchange is the **2021 Watch Campaign in India**, confirmed by Shree. Its image is from the supplied MediaNews4u article; the project links back to the coverage. The article was published August 17, 2021; that is not presented as the shoot date.
 - Femina Wedding Times: **Athiya Shetty editorial · 2019 · Freelance BTS**, based on Shree’s direct confirmation. This is credited separately from Twism production work. The linked Instagram profile is `https://www.instagram.com/messin_neko/`; the tagged project post has not been independently located or embedded.
@@ -69,6 +69,16 @@ To update campaign names, edit each card’s `campaign-brand`, `h3`, and metadat
 
 ## Call-sheet audit update — 6 October 2026
 
-Documented dates: Scullers 20 August 2019; Tanishq Aarambh 5 March 2020; Mélange 12 March 2020; Tata CLiQ Luxury 12 October 2020. Zoya and Pantaloons are held pending personal involvement confirmation. Unsupported numerical crew claims removed. Additional confirmed brands appear as compact credits. Fair & Lovely involvement confirmed by Shree; exact role remains unassigned.
+Documented dates: Scullers 20 August 2019; Tanishq Aarambh 5 March 2020; Mélange 12 March 2020; Tata CLiQ Luxury 12 October 2020. Zoya Rooted is confirmed for the Mumbai product shoot only; its separate Goa model shoot is not claimed. Pantaloons 2019 is confirmed. Both are restored. Unsupported numerical crew claims removed. All confirmed brands now have full project entries in All Projects. Fair & Lovely involvement confirmed by Shree; exact role remains unassigned.
 
 JavaScript syntax, local references, duplicate IDs, media decoding and package integrity were checked. This pass has not been visually tested in the browser because the local preview URL was blocked by the browser tool. Check phone and desktop playback before public deployment.
+
+## Complete project list update
+
+Eight former additional credits are now full entries: ICICI Bank, BPFT, Clinic Plus, Max Regional Festive, Castrol, Fastrack Ergo Light, Roadster 2021 and Fair & Lovely. Total: four featured and eighteen in All Projects. The new call sheets establish Armani 6 January 2021, Chopard 5 March 2021, Fastrack 3 March 2020, Max 28 January 2021, and Castrol 26/28 July 2021. New entries use designed text cards where exact campaign media could not be confidently matched online.
+
+The user has published an earlier version at https://messin-neko.github.io/shreetandel/. This package contains the next update; upload its contents to the same repository to publish these changes. No GitHub push is performed by this local package.
+
+## Save business contact
+
+The opening section and Contact section link to `documents/Shree_Tandel_Contact.vcf`. It contains Shree Tandel, the Associate Producer title, mobile +1 682 306 1109, email, portfolio URL and LinkedIn. Visitors can download/import the contact; the exact save screen depends on their device. The phone remains off the visible page, but is included in this publicly downloadable contact card. Upload the new VCF alongside the updated `index.html` when updating GitHub Pages. No external service is required.
